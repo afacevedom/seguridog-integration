@@ -1,2 +1,2 @@
 # seguridog-repo
-The repository of the K9 information system and web app.
+Repositorio para el proyecto de curso de la asignatura Ingeniería de Software II (UNAL 2015-II)
