@@ -420,7 +420,7 @@
       <created>1444494534714</created>
       <option name="number" value="Default" />
       <updated>1444494534714</updated>
-      <workItem from="1444494537432" duration="993000" />
+      <workItem from="1444494537432" duration="1583000" />
     </task>
     <task id="LOCAL-00001" summary="Se agregó la estreuctura de un projecto IntelliJ IDEA 14.1.5 y una los archivos de una aplicación Grails 2.4.4">
       <created>1444495448765</created>
@@ -432,10 +432,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="993000" />
+    <option name="totallyTimeSpent" value="1583000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="0" width="1368" height="745" extended-state="6" />
+    <frame x="-1" y="0" width="1368" height="745" extended-state="7" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
