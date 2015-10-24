@@ -29,6 +29,11 @@
       <module fileurl="file://$PROJECT_DIR$/seguridog.iml" filepath="$PROJECT_DIR$/seguridog.iml" />
     </modules>
   </component>
+  <component name="ProjectPlainTextFileTypeManager">
+    <file url="file://$PROJECT_DIR$/grails-app/views/error.gsp" />
+    <file url="file://$PROJECT_DIR$/grails-app/views/index.gsp" />
+    <file url="file://$PROJECT_DIR$/grails-app/views/layouts/main.gsp" />
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" assert-keyword="true" jdk-15="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
