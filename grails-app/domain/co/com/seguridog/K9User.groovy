@@ -13,6 +13,8 @@ class K9User {
     LocalDate birthDate
     String cellphone
     String eMail
+    String typeContract
+    Date dateContract
 
     int getAge() {
         birthDate.compareTo(LocalDate.now())
@@ -35,5 +37,7 @@ class K9User {
                 return false
             }
         })
+        typeContract blank: false
+        dateContract blank: false
     }
 }
