@@ -92,8 +92,8 @@
 
             <marquee scrolldelay="100" direction="right" crollamount="8" height="600px">
                      <br /><br /><br /><br />
-                     <asset:image src="rex.png" alt="SeguriDog" border="4"/>
-                     <asset:image src="mono.png" alt="SeguriDog" border="4"/>
+                     <asset:image src="dog.png" alt="SeguriDog" border="4"/>
+                     <asset:image src="dog.png" alt="SeguriDog" border="4"/>
 		     <br />
 
             </marquee>
