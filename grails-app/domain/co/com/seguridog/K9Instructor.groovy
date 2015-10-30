@@ -6,7 +6,7 @@ class K9Instructor extends K9User {
     Date dateCredentials
     String specialities
 
-    static hasMany = [retrainings: Retraining, exercicesabilities: ExerciseAbility]
+    static hasMany = [exercicesabilities: ExerciseAbility]
 
     static constraints = {
         approvedCourse (blank: false)

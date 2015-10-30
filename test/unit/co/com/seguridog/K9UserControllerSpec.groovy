@@ -2,6 +2,7 @@ package co.com.seguridog
 
 import grails.test.mixin.TestFor
 import spock.lang.Specification
+import spock.lang.Unroll
 
 /**
  * See the API for {@link grails.test.mixin.web.ControllerUnitTestMixin} for usage instructions
@@ -15,6 +16,8 @@ class K9UserControllerSpec extends Specification {
     def cleanup() {
     }
 
-    void "test something"() {
+    @Unroll ("Method Authenticate")
+    void "test method authenticate"() {
+
     }
 }

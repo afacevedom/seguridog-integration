@@ -15,11 +15,9 @@ class Canine {
     String feltDown
     String attendCall
     String positionStay
-    String watch
+    String watchCanine
 
-    static hasMany = [canineabilities : CanineAbility]
-
-    static belongsTo = [clinichistories : ClinicHistory, retrainings : Retraining, exerciseabilities: ExerciseAbility, workcanines: WorkCanine]
+    static hasMany = [canineabilities : CanineAbility, clinichistoriesCan: ClinicHistory, exerciseabilities: ExerciseAbility, workcanines: WorkCanine]
 
     static constraints = {
         microChip (blank: false)
@@ -36,7 +34,7 @@ class Canine {
         feltDown (blank: false)
         attendCall (blank: false)
         positionStay (blank: false)
-        watch (blank: false)
+        watchCanine (blank: false)
     }
 
 }

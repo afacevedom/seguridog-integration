@@ -1,6 +1,6 @@
 package co.com.seguridog
 
-class K9Handler {
+class K9Handler extends K9User{
     String approvedCourse
     Date dateApproved
 

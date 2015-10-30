@@ -1,8 +1,5 @@
 package co.com.seguridog
 
-import java.time.LocalDate
-import java.time.Month
-
 class K9User {
 
     Integer cedula
@@ -10,14 +7,15 @@ class K9User {
     String lastName
     String loginUser
     String loginPass
-    LocalDate birthDate
+    Date birthDate
     String cellphone
     String eMail
     String typeContract
     Date dateContract
+    Integer typeUsers
 
     int getAge() {
-        birthDate.compareTo(LocalDate.now())
+        birthDate.compareTo(new Date())
     }
 
     String toString() {
@@ -28,7 +26,7 @@ class K9User {
         cedula nullable: false, blank: false, unique: true
         lastName nullable: false, blank: false, maxSize: 40
         firstName nullable: false, blank: false, maxSize: 40
-        birthDate min: LocalDate.of(1900, Month.JANUARY, 1)
+        birthDate nullable: false
         cellphone nullable: false, blank: false, size: 7..10
         eMail nullable: false, blank: false, email: true
         loginUser nullable: false, blank: false, unique: true
@@ -39,5 +37,6 @@ class K9User {
         })
         typeContract blank: false
         dateContract blank: false
+        typeUsers range: 1..4
     }
 }
